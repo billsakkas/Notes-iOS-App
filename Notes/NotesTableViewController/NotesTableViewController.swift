@@ -21,6 +21,7 @@ class NotesTableViewController: UITableViewController {
         super.viewDidLoad()
         setNavigationController()
         tableView.register(NotesTableViewCell.self, forCellReuseIdentifier: NotesTableViewCell.reuse_id)
+        tableView.rowHeight = 60
     }
     
     override func viewWillAppear(_ animated: Bool) {
