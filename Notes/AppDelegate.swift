@@ -17,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let initNavC = UINavigationController(rootViewController: NotesTableViewController())
+        initNavC.setShadowColor(UIColor(red: 0/255, green: 122/255, blue: 255/255, alpha: 1))
+        initNavC.navigationBar.setBarStyle(
+            BarStyle: UIBarStyle(rawValue: 1),
+            isTranslucent: true,
+            Tint: .white)
+        initNavC.navigationBar.prefersLargeTitles = true
+        window?.rootViewController = initNavC
+        window?.makeKeyAndVisible()
         return true
     }
 
