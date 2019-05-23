@@ -1,4 +1,8 @@
-<a href="https://github.com/billsakkas/Notes-iOS-App"><img src="https://github.com/billsakkas/Notes-iOS-App/raw/master/Assets/Images/Logo.png" title="Notes App Logo" alt="Notes App Logo"></a>
+<p align="center">
+    <a href="https://github.com/billsakkas/Notes-iOS-App">
+        <img src="https://github.com/billsakkas/Notes-iOS-App/raw/master/Assets/Images/Logo.png" title="Notes App Logo" alt="Notes App Logo">
+    </a>
+</p>
 
 # Notes App
 
