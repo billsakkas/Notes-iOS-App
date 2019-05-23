@@ -17,7 +17,6 @@ class NotesView: UIView {
     }()
     
     init(note: Note?) {
-//        self.note = note
         super.init(frame: CGRect.zero)
         textView.text = note?.text
         uiSetup()

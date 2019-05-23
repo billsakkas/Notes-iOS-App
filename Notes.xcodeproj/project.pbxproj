@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A930E3BE2296E46D001E8BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A930E3BD2296E46D001E8BF6 /* LaunchScreen.storyboard */; };
+		A930E3C022971ECD001E8BF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930E3BF22971ECD001E8BF6 /* ViewController.swift */; };
 		A9488AFC2254E9E200B21F2D /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9488AFA2254E9E200B21F2D /* Note+CoreDataClass.swift */; };
 		A9488AFD2254E9E200B21F2D /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9488AFB2254E9E200B21F2D /* Note+CoreDataProperties.swift */; };
 		A9678AC7224BC21600A4E3C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9678AC6224BC21600A4E3C4 /* AppDelegate.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		A930E3BD2296E46D001E8BF6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A930E3BF22971ECD001E8BF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9488AFA2254E9E200B21F2D /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A9488AFB2254E9E200B21F2D /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A9678AC3224BC21600A4E3C4 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 				A9678B01224D67F100A4E3C4 /* NotesViewController */,
 				A9678B00224D675200A4E3C4 /* NotesTableViewController */,
 				A9678AC6224BC21600A4E3C4 /* AppDelegate.swift */,
+				A930E3BF22971ECD001E8BF6 /* ViewController.swift */,
 				A9678AD5224BC21700A4E3C4 /* Info.plist */,
 				A930E3BD2296E46D001E8BF6 /* LaunchScreen.storyboard */,
 				A9678ACD224BC21600A4E3C4 /* Notes.xcdatamodeld */,
@@ -337,6 +340,7 @@
 				A9F08C6A2254D33B00D84E6D /* CoreDataDelegate.swift in Sources */,
 				A9488AFC2254E9E200B21F2D /* Note+CoreDataClass.swift in Sources */,
 				A9678AC9224BC21600A4E3C4 /* NotesTableViewController.swift in Sources */,
+				A930E3C022971ECD001E8BF6 /* ViewController.swift in Sources */,
 				A9F08C672254D15F00D84E6D /* NoteCoreDataController.swift in Sources */,
 				A9488AFD2254E9E200B21F2D /* Note+CoreDataProperties.swift in Sources */,
 				A9678ACF224BC21600A4E3C4 /* Notes.xcdatamodeld in Sources */,
