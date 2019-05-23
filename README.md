@@ -25,7 +25,7 @@
 
 ![New Note](http://g.recordit.co/Ria0fcj369.gif)![New Note](http://g.recordit.co/eKo4IBAp6y.gif)
 
-http://g.recordit.co/ox7NyrcR0I.gif
+<!-- http://g.recordit.co/ox7NyrcR0I.gif -->
 
 ---
 <!--
