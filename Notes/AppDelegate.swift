@@ -16,9 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let initNavC = ViewController(rootViewController: NotesTableViewController())
+        let initTVC = ViewController(rootViewController: NotesTableViewController())
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = initNavC
+        window?.rootViewController = initTVC
         window?.makeKeyAndVisible()
         return true
     }
