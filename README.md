@@ -87,7 +87,7 @@
 
 Reach out to me at one of the following places!
 
-- Website at <a href="https://sakkas.me" target="_blank">`spectr.dev`</a>
+- Website at <a href="https://sakkas.me" target="_blank">`sakkas.me`</a>
 - LinkedIn at <a href="https://www.linkedin.com/in/vasilis-sakkas-931764119/" target="_blank">`Vasilis Sakkas`</a>
 
 ---
