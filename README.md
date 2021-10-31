@@ -87,7 +87,7 @@
 
 Reach out to me at one of the following places!
 
-- Website at <a href="https://spectr.dev" target="_blank">`spectr.dev`</a>
+- Website at <a href="https://sakkas.me" target="_blank">`spectr.dev`</a>
 - LinkedIn at <a href="https://www.linkedin.com/in/vasilis-sakkas-931764119/" target="_blank">`Vasilis Sakkas`</a>
 
 ---
@@ -106,4 +106,4 @@ Reach out to me at one of the following places!
 
 ![License](https://img.shields.io/github/license/billsakkas/Notes-iOS-App.svg?style=for-the-badge)
 - **[GNU GPLv3 license](https://choosealicense.com/licenses/gpl-3.0/)**
-- Copyright 2019 © <a href="http://sakkas.io" target="_blank">Vasilis Sakkas</a>.
+- Copyright 2021 © <a href="http://sakkas.me" target="_blank">Vasilis Sakkas</a>.
