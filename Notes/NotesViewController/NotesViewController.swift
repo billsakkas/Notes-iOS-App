@@ -31,7 +31,7 @@ class NotesViewController: UIViewController {
     }
     
     private func updateNavBar() {
-        title = (note != nil ? note!.title : "New Note")
+        title = (note != nil ? note!.title : "New note")
     }
     
     private func backButtonPressed() {
