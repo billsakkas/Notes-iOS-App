@@ -47,7 +47,7 @@ class NotesTableViewController: UITableViewController {
         let navBar = navigationController?.navigationBar
         navBar?.topItem?.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(deleteNotesMode))
         navBar?.topItem?.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(newNote))
-        navBar?.topItem?.title = "Your Notes"
+        navBar?.topItem?.title = "Personal notes"
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -82,7 +82,7 @@ class NotesTableViewController: UITableViewController {
         let note = notes.remove(at: indexPath.row)
         NoteCoreDataController.deleteData(note: note)
         tableView.deleteRows(at: [indexPath], with: .left)
-        toolbarStatusLabel.text = notes.count > 0 ? "\(notes.count) Notes" : ""
+        toolbarStatusLabel.text = notes.count > 0 ? "\(notes.count) notes" : ""
     }
     
     @objc private func newNote(sender: UIButton) {
